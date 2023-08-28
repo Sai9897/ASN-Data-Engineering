@@ -4,10 +4,10 @@ def insert_data(rows):
     try:
         # Configure the connection
         db = mysql.connector.connect(
-            host="testdb.ckk2y86it138.us-east-1.rds.amazonaws.com",
-            user="admin",
-            password="Amazon91",
-            database="test_database"
+            host="YOUR RDS END POINT",
+            user="YOUR USER NAME",
+            password="YOUR PASSWORD",
+            database="YOUR DATABASE NAME"
         )
 
         # Create a cursor object
